@@ -6,12 +6,12 @@ class A2aProbe < Formula
 
   on_macos do
     url "https://github.com/CodeYogiCo/a2a-probe/releases/download/v#{version}/a2a-probe-darwin-arm64"
-    sha256 "placeholder_updated_by_ci"
+    sha256 "012d05bae26a80e000f6e9f0db1066edb9c779e3323b1f98695cf624340f3625"
   end
 
   on_linux do
     url "https://github.com/CodeYogiCo/a2a-probe/releases/download/v#{version}/a2a-probe-linux-amd64"
-    sha256 "placeholder_updated_by_ci"
+    sha256 "0d082263e512d1f1731b7ebd759b20b24cf7b32b7075a0d34c6507ec68473322"
   end
 
   def install
