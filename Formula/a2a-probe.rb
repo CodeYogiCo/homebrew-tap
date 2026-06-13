@@ -2,16 +2,16 @@ class A2aProbe < Formula
   desc "Command-line client for the A2A (Agent-to-Agent) Protocol"
   homepage "https://github.com/CodeYogiCo/a2a-probe"
   license "MIT"
-  version "0.1.15"
+  version "0.1.16"
 
   on_macos do
     url "https://github.com/CodeYogiCo/a2a-probe/releases/download/v#{version}/a2a-probe-darwin-arm64"
-    sha256 "0b9e839d81baf8f114313c9a765b0b87e17a9c18ace6fe3c7e6a5bef54902374"
+    sha256 "142ff94bed1ddf8713e5b903e0a2afbea989556c55d876f297a5aea9a51c780f"
   end
 
   on_linux do
     url "https://github.com/CodeYogiCo/a2a-probe/releases/download/v#{version}/a2a-probe-linux-amd64"
-    sha256 "d401905f9da529118310e8b0535419d6a9e9bead3b9c05a89281c0256a87645c"
+    sha256 "fcdfb965e85052b274b6f30afaca05e22a0b16f24b89da1af840ab659e7c5255"
   end
 
   def install
